@@ -13,7 +13,7 @@
         android:layout_width="133dp"
         android:layout_height="163dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="220dp"
         android:layout_marginEnd="10dp"
         android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
         android:fontFamily="@font/aldrich"
         android:gravity="center"
@@ -33,6 +33,7 @@
         android:textSize="32dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logoUMB" />
 
@@ -48,9 +49,11 @@
         android:text="MERCU BUANA"
         android:textSize="40dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/universitas" />
+        app:layout_constraintTop_toBottomOf="@+id/universitas"
+        app:layout_constraintVertical_bias="0.013" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
